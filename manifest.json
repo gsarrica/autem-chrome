@@ -1,0 +1,26 @@
+{
+  "name": "TestAngular2",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "TestDescription",
+  "options_page": "settings.html",
+  "background": {
+    "scripts":  ["app/background.service.js"
+    ]
+  },
+  "permissions": [
+    "background",
+    "idle",
+    "tabs",
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "TestAngular2",
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+    "images/icon-38.png"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+
+}
