@@ -1,5 +1,5 @@
-# angular2-chrome-extension
-Chrome Extension with Angular 2
+# autem-chrome
+Chrome extension for Autem Android App
 
 #####To install
 npm install
